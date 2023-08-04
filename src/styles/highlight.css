@@ -1,0 +1,32 @@
+.highlight-div{
+    margin: 20px;
+    padding: 20px;
+    line-height: 30px;
+}
+.features-div{
+    width: 80%;
+    padding: 15px;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.highlights{
+    width: 48%;
+    margin: 5px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 5px;
+    border: 1px solid rgb(44, 2, 82);
+    background-color: rgb(223, 206, 250);
+}
+.highlights>p{
+    font-size: 17px;
+    font-family: 'PT Sans', sans-serif;
+}
+.highlights>h1{
+    font-size: 50px;
+    font-family: 'BIZ UDPGothic', sans-serif;}
+.astris-end{
+    text-align: end;
+}

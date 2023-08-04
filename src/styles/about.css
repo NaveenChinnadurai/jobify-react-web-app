@@ -1,0 +1,36 @@
+.aboutTxt{
+    padding: 10px;
+}
+.aboutLeft{
+    background-color: rgb(23, 4, 46);
+    padding: 20px;
+    color:white;
+}
+.about-letter{
+    width: fit-content;
+    font-size: 45px;
+}
+.aboutPara{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 20px;
+    width: 100%;
+    color: black;
+    background-color: rgb(212, 193, 243);
+}
+.aboutPara>p{
+    font-size: 16px;
+}
+.aboutImg{
+    height: 300px;
+    width: 500px;
+    background-image: url('../assets/aboutImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.aboutImg>span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+

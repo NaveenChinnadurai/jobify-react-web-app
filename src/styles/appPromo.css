@@ -1,0 +1,38 @@
+.app-promo{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin:20px auto;
+    padding: 20px;
+}
+.app-promo-text{
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.app-promo-head{
+    color: rgb(49, 4, 133);
+    font-size: 30px;
+    font-weight:bolder;
+}
+.description{
+    font-size: 20px;
+    margin:10px;
+    padding-left:10px;
+}
+.desc-1{
+    font-size: 18px;
+}
+.download-app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.download-icon{
+    height: 50px;
+    margin: 20px 10px;
+    border-radius: 8px;
+}
+.app-promo-img{
+    height:300px;
+}

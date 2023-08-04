@@ -1,0 +1,67 @@
+.courses-div{
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: rgb(215, 175, 248);
+}
+.course-head{
+    width: 80%;
+    margin: 0px auto;
+}
+.courses-title{
+    text-align: justify;
+    padding: 10px 20px;
+}
+.courses-title>p{
+    font-size: 20px;
+}
+.courses-title>h1{
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(125, 40, 204);
+    font-weight: bolder;
+    text-align: center;
+}
+.isoImg{
+    height: 230px;
+}
+.courses-list{
+    padding: 20px 0px;
+}
+.courses-list>h1{
+    margin-bottom: 5px;
+}
+.courses-list>p{
+    font-size: 16px;
+}
+.courses-details{
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.course-card{
+    width: 20%;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 11px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: rgb(228, 217, 253);
+    overflow: hidden;
+}
+.course-card>img{
+    height: 150px;
+    width: 100%;
+}
+.course-card>p{
+    font-size: 15px;
+}
+h2>a{
+    text-decoration: none;
+    margin: 5px 0px ;
+}
+.price-lang{
+    width: 100%;
+    justify-content: space-between;
+}
+.course-price{
+    margin: 10px 0px;
+}

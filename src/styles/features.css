@@ -1,0 +1,42 @@
+.feature-div{
+    width: 90%;
+    margin: 10px auto;
+}
+.resume-div{
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.feature-txt{
+    width: 60%;
+    text-align: justify;
+    margin: 20px 0px;
+}
+.feature-txt>h1{
+    color: rgb(62, 10, 158);
+    margin: 10px 0px;
+}
+.feature-txt>p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.feature-img{
+    width: 40%;
+}
+.feature-Img{
+    height: 350px;
+}
+.com-div{
+    justify-content: flex-end;
+}
+.com-txt{
+    width: 60%;
+}
+.com-img{
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.com-txt>h1{
+    text-align: right;
+}

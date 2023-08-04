@@ -1,0 +1,85 @@
+.account-div{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(240, 226, 253);
+}
+.account-div>h2{
+    margin-bottom: 20px;
+}
+.signin{
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(190, 154, 247);
+    /* 
+    background-color: rgb(110, 83, 155); */
+}
+.signup{
+    width: 50%;
+    padding: 20px;
+    color: rgb(236, 234, 234);
+    background-color: rgb(30, 12, 46);
+}
+.signin-icon{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.signin-input{
+    padding: 5px;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    color: black;
+    background-color: rgb(190, 154, 247);
+    border-bottom: solid black 2px;
+}
+.signin-input:focus{
+    background-color: rgb(132, 102, 180);
+}
+.pass{
+    font-size: 13px;
+    color: black;
+}
+.signin-btn{
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    background-color:rgb(30, 12, 46);
+}
+.signin-btn:hover{
+    background-color: white;
+    color: black;
+}
+.signup-head{
+    margin: 10px;
+}
+.signup-inputs{
+    width: 70%;
+    flex-wrap: wrap;
+}
+.signup-input{
+    font-size: 15px;
+    width: 40%;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgb(30, 12, 46);
+    border: none;
+    border-bottom: solid black 2px;
+}
+.signup-input:focus{
+    background-color: rgb(56, 46, 71);
+    border: none;
+}
+.signup-btn{
+    background-color: rgb(74, 64, 90);
+    cursor: pointer;
+}
+.signup-btn:hover{
+    background-color: white;
+    color: black;
+}
