@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/appPromo.css'
 import playStoreImg from '../assets/playstore.png'
-import appleStoreImg from '../assets/appleStore.png'
+import appleStoreImg from '../assets/applestore.png'
 import promoImg from '../assets/promoImage.jpeg'
 function AppPromo() {
   return (
