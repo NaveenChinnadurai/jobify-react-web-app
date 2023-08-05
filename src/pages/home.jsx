@@ -43,7 +43,7 @@ function Home() {
         <div className='search-div row'>
             <span className='search-txt'>Explore Jobs</span>
             <input type="text" placeholder='Browse Jobs here' className='search-tab'/>
-            <button className='search-btn'>Search</button>
+            <button   className='search-btn'>Search</button>
         </div>
         <div className="job-search col">
           <h2>Explore the latest jobs</h2>
