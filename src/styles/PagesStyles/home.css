@@ -4,22 +4,14 @@
 .quote-div>h3{
     margin: 15px;
 }
-.quote-btn{
-    background-color:  rgb(49, 28, 83) ;
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: white;
-    font-weight: bolder;
-}
 .job-search>h2{
     margin: 10px 0px;
 }
 .search-div{
     background-color: rgb(110, 61, 150);
     width: 90%;
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 10px;
-    justify-content: end;
     justify-content: space-evenly;
     border-radius: 40px;
 }
@@ -51,4 +43,34 @@
 }
 .top-icon{
     font-size: 30px;
+}
+@media screen and (max-width:400px) {
+    .quote-div>h1{
+        font-size: 20px;
+    }
+    .quote-div>h3{
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .search-div{
+        width: 95%;
+        padding: 5px;
+    }
+    .search-txt{
+        font-size: 15px;
+        width: fit-content;
+    }
+    .search-tab{
+        width: 50%;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .search-btn{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .job-search>h2{
+        font-size: 15px;
+    }
 }

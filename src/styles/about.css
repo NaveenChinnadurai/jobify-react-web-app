@@ -34,3 +34,28 @@
     font-weight: bolder;
 }
 
+@media screen and (max-width:400px) {
+    .aboutTxt{
+        flex-direction: column;
+    }
+    .aboutLeft{
+        flex-direction: row;
+        width: 100%;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    .about-letter{
+        font-size: 20px;
+    }
+    .aboutPara>h1{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .aboutPara>p{
+        font-size: 15px;
+    }
+    .aboutImg{
+        display: contents;
+    }
+}
+

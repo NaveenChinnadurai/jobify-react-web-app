@@ -4,9 +4,9 @@ import '../styles/highlight.css'
 function Highlights() {
   const highlight=highlights.map((quotes)=>{
     return(
-      <div className="highlights">
+      <div className="highlights" key={quotes.id}>
         <h1>"</h1>
-        <p>{quotes}</p>
+        <p>{quotes.txt}</p>
         <h1 className='astris-end'>"</h1>
       </div>
     )

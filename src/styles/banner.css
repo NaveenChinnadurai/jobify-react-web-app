@@ -1,29 +1,26 @@
 .banner{
     background-color: rgb(5, 0, 26);
-    height: 75vh;
-    padding: 20px;
     color: white;
 }
+.banner-div{
+    justify-content: center;
+    align-items: center;
+}
 .banner-div-1{
-    align-items: end;
-    padding: 20px 0px;
-    height: 100%;
-    width: 50%;
+    padding: 10px;
 }
 .banner-txt{
     align-items: flex-start;
-    padding: 20px;
 }
 .banner-txt>p{
     margin: 10px 0px;
 }
 .banner-btns{
-    width: 70%;
-    justify-content: center;
+    margin: 10px;
 }
 .banner-btns>span{
     padding: 10px 15px;
-    font-size: 15px;
+    font-size: 2vh;
     margin: 0px 10px;
     color:white;
     background-color: rgb(58, 3, 95);
@@ -34,16 +31,21 @@
     background-color: rgb(113, 43, 160);
     color: black;
 }
-.banner-img{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-    width: 40%
-}
-.banner-img>img{
-    height: 100%;
-    margin-left: 50px;
+
+
+@media screen and (max-width:400px) {
+    .banner-div{
+        flex-direction: column-reverse;
+
+    }
+    .banner-div-1{
+        margin: 10px;
+    }
+    .banner-txt>h1{
+        font-size: 20px;
+    }
+    .banner-txt>p{
+        font-size: 15px;
+        width: 70%;
+    }
 }

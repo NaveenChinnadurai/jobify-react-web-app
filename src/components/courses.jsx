@@ -5,7 +5,7 @@ import { courses } from '../scripts/courses'
 function Courses() {
     const courseList=courses.map((course)=>{
         return(
-            <div className="course-card col">
+            <div className="course-card col" key={course.courseName}>
                 <img src={course.img} alt={course.courseName} className='Course-img' />
                 <h2><a href="">{course.courseName}</a></h2>
                 <p>{course.description}</p>

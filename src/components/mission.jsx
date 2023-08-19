@@ -4,7 +4,7 @@ import {mission} from '../scripts/achievements'
 function Missions() {
     const Achivement=mission.map((data)=>{
         return(
-            <div className="mission-card">
+            <div className="mission-card" key={data.id}>
                 <p>{data.txt}</p>
             </div>
         )

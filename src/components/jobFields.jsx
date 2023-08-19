@@ -5,7 +5,7 @@ import {TbHandClick as Click} from 'react-icons/tb'
 function JobFields() {
     const jobLists=jobList.map((job)=>{
         return(
-            <div className="job-card row">
+            <div className="job-card row" key={job.jobTitle}>
                 <div className="card-start row">
                     <div className="card-img">
                         <img src={job.img} alt="" className='job-img'/>
@@ -33,7 +33,7 @@ function JobFields() {
     const timeList=['Full Time','Part-Time','Virtual']
     const filterTime=timeList.map((eli)=>{
         return(
-            <div className="time-div">
+            <div className="time-div" key={eli}>
                     <input type="checkbox" name={eli} className='time-input'/>
                     <span>{eli}</span>
             </div>

@@ -5,12 +5,12 @@ function About() {
     const about = ['A','B','O','U','T'];
     const aboutText = about.map((x)=>{
         return(
-            <p className='about-letter'>{x}</p>
+            <p className='about-letter' key={x}>{x}</p>
         )
     })
     return (
-        <div className='aboutTxt row'>
-            <div className="aboutLeft col">{aboutText}</div>
+        <div className='row aboutTxt'>
+            <div className="col aboutLeft ">{aboutText}</div>
             <div className='aboutPara'>
                 <h1>Welcome to Jobify</h1>
                 <p>{content}</p>

@@ -15,63 +15,78 @@ import cisco from '../assets/icons/cisco.png'
 import hcl from '../assets/icons/hcl.png'
 export const partner=[
     {
-        'img':google,
-        'name':'google partners-icon'
+        id:1,
+        img:google,
+        name:'google partners-icon'
     },
     {
-        'img':microsoft,
-        'name':'microsoft grp-1 partners-icon'
+        id:2,
+        img:microsoft,
+        name:'microsoft grp-1 partners-icon'
     },
     {
-        'img':adidas,
-        'name':'adidas partners-icon'
+        id:3,
+        img:adidas,
+        name:'adidas partners-icon'
     },
     {
-        'img':amazon,
-        'name':'amazon grp-1 partners-icon'
+        id:4,
+        img:amazon,
+        name:'amazon grp-1 partners-icon'
     },
     {
-        'img':maritto,
-        'name':'maritto partners-icon'
+        id:5,
+        img:maritto,
+        name:'maritto partners-icon'
     },
     {
-        'img':nike,
-        'name':'nike partners-icon'
+        id:6,
+        img:nike,
+        name:'nike partners-icon'
     },
     {
-        'img':ibm,
-        'name':'ibm grp-1 partners-icon'
+        id:7,
+        img:ibm,
+        name:'ibm grp-1 partners-icon'
     },
     {
-        'img':nokia,
-        'name':'nokia partners-icon'
+        id:8,
+        img:nokia,
+        name:'nokia partners-icon'
     },
     {
-        'img':chanel,
-        'name':'chanel partners-icon'
+        id:9,
+        img:chanel,
+        name:'chanel partners-icon'
     },
     {
-        'img':indeed,
-        'name':'indeed partners-icon'
+        id:10,
+        img:indeed,
+        name:'indeed partners-icon'
     },
     {
-        'img':hcl,
-        'name':'partners-icon hcl'
+        id:11,
+        img:hcl,
+        name:'partners-icon hcl'
     },
     {
-        'img':intel,
-        'name':'intel partners-icon'
+        id:12,
+        img:intel,
+        name:'intel partners-icon'
     },
     {
-        'img':disney,
-        'name':'disney partners-icon'
+        id:13,
+        img:disney,
+        name:'disney partners-icon'
     },
     {
-        'img':utube,
-        'name':'utube partners-icon'
+        id:14,
+        img:utube,
+        name:'utube partners-icon'
     },
     {
-        'img':cisco,
-        'name':'cisco partners-icon'
+        id:15,
+        img:cisco,
+        name:'cisco partners-icon'
     }
 ]

@@ -6,7 +6,7 @@ function Banner() {
   return (
     <div className="banner">
         <div className="row banner-div">
-            <div className="banner-div-1 col">
+            <div className="col banner-div-1 ">
                 <div className="banner-txt col">
                     <h1>Unlock Your Dream <br />Career - Discover Opportunities <br />Today!</h1>
                     <p>Land Your Dream Job - We Make it Possible!</p>

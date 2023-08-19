@@ -14,7 +14,7 @@
 }
 .partners-icon{
     height: 50px;
-    margin: 0px 25px;
+    margin: 0px 5px;
     width: auto;
 }
 .grp-1{
@@ -23,8 +23,27 @@
 }
 .ibm{
     height: 90px;
-    margin-top: -5px;
 }
 .hcl{
     height: 70px;
+}
+@media screen and (max-width:400px) {
+    .partners-div>h1{
+        background-color: green;
+        font-size: 20px;
+    }
+    .partners-icon{
+        height: 30px;
+        width: auto;
+    }
+    .grp-1{
+        height: 50px;
+        width: 130px;
+    }
+    .ibm{
+        height: 70px;
+    }
+    .hcl{
+        height: 50px;
+    }
 }

@@ -4,7 +4,7 @@ import { partner } from '../scripts/partnersIcons'
 function Partners() {
     const Partner=partner.map((img)=>{
         return(
-            <img src={img.img} alt="Image" className={img.name}/>
+            <img src={img.img} alt="Image" className={img.name} key={img.id}/>
         )
     })
   return (
