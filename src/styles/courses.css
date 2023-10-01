@@ -74,12 +74,13 @@ h2>a{
         flex-direction: column;
     }
     .courses-title{
+        background-color: rgb(215, 175, 248);
         background-image: url('../assets/iso.png');
         background-size:contain;
         background-position: center;
         background-repeat:no-repeat;
         background-size: 70%;
-        background-blend-mode: hue;
+        background-blend-mode:overlay;
     }
     #iso-img{
         display: none !important;

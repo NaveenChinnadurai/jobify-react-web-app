@@ -100,4 +100,7 @@
     .signin,.signup{
         width: 100%;
     }
+    .signup-inputs{
+        width: 100vw;
+    }
 }

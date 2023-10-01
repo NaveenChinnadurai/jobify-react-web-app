@@ -1,6 +1,6 @@
 .mission-div {
     padding: 10px;
-    background-color: rgb(156, 106, 221);
+    background-image: linear-gradient(150deg,rgb(192, 147, 252),rgb(104, 60, 161),rgb(145, 92, 214));
 }
 
 .mission-points {

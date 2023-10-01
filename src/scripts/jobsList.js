@@ -3,8 +3,7 @@ import icon2 from '../assets/icons/icon2.jpg'
 import icon3 from '../assets/icons/maritto.png'
 import icon4 from '../assets/icons/Chanel.png'
 import icon5 from '../assets/icons/icon5.jpg'
-import icon6 from '../assets/icons/icon5.jpg'
-
+import icon6 from '../assets/icons/nike.png'
 export const jobList=[
     {
         img:icon1,
