@@ -7,19 +7,17 @@
 .partners-icons{
     display: flex;
     justify-content: center;
-    padding: 20px 0px;
-    width: 95%;
-    margin:0px auto;
+    padding: 10px;
     flex-wrap: wrap;
 }
 .partners-icon{
     height: 50px;
-    margin: 0px 5px;
-    width: auto;
+    margin: 0 10px;
 }
 .grp-1{
-    height: 70px;
+    height: 100px;
     width: 150px;
+    margin-top: -20px;
 }
 .ibm{
     height: 90px;
@@ -29,7 +27,6 @@
 }
 @media screen and (max-width:400px) {
     .partners-div>h1{
-        background-color: green;
         font-size: 20px;
     }
     .partners-icon{
@@ -37,8 +34,9 @@
         width: auto;
     }
     .grp-1{
+        margin-top: 0;
         height: 50px;
-        width: 130px;
+        width: 100px;
     }
     .ibm{
         height: 70px;

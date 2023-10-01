@@ -5,7 +5,7 @@ import {TbHandClick as Click} from 'react-icons/tb'
 function JobFields() {
     const jobLists=jobList.map((job)=>{
         return(
-            <div className="job-card row" key={job.jobTitle}>
+            <div className="row job-card" key={job.jobTitle}>
                 <div className="card-start row">
                     <div className="card-img">
                         <img src={job.img} alt="" className='job-img'/>
@@ -15,14 +15,14 @@ function JobFields() {
                         <p>{job.company}</p>
                     </div>
                 </div>
-                <div className='job-info row sp'>
+                <div className='row sp job-info'>
                     <span>{job.type}</span>
                     <span>{job.level}</span>
                     <span>{job.time}</span>
                 </div>
-                <div className="card-end card-div row sp">
+                <div className="card-end row sp">
                     <span >{job.location}</span>
-                    <p >{job.postedOn}</p>
+                    <p>{job.postedOn}</p>
                 </div>
                 <div className="job-icon">
                     <span><a href=""><Click className='job-Icon'/></a></span>
@@ -40,7 +40,7 @@ function JobFields() {
         )
     })
   return (
-    <div className='job-div row'>
+    <div className='row job-div'>
         <div className="filter-div">
             <div className="filter-head">
                 <h4>Filter</h4>
@@ -63,11 +63,11 @@ function JobFields() {
                     </div>
                 </div>
             </div>
-            <div className="filter-btn row">
+            <div className="row filter-btn">
                 <span className='apply-btn'>Apply Filter</span>
             </div>
         </div>
-        <div className="jobs-list col">{jobLists}</div>
+        <div className="col jobs-list">{jobLists}</div>
     </div>
   )
 }

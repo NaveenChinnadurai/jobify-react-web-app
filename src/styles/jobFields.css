@@ -1,5 +1,5 @@
 .job-div{
-    width: 100%;
+    width: 100vw;
     height:75vh;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
@@ -103,4 +103,68 @@
 }
 .job-Icon{
     font-size: 30px;
+}
+
+@media screen and (max-width:576px) {
+    .job-div{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .filter-div{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+        border-bottom: 1px solid black;
+    }
+    .filter-head{
+        display: none !important;
+    }
+    .filter-time{
+        margin: 0;
+    }
+    .filter-btn{
+        width: 100%;
+    }
+    .apply-btn{
+        margin: 0;
+        font-size: 13px;
+    }
+    .jobs-list{
+        width: 100%;
+    }
+    .job-card{
+        padding: 0;
+        justify-content: space-between;
+    }
+    .card-start{
+        width:70%;
+        justify-content: space-evenly;
+    }
+    .card-end{
+        width: 30%;
+        justify-content: space-between;
+    }
+    .card-end>span{
+        font-size: 12px;
+        padding: 1px 5px;
+    }
+    .card-end>p{
+        width:30%;
+        font-size: 12px;
+    }
+    .job-title>h4{
+        font-size: 15px;
+    }
+    .job-title>p{
+        display: none !important;
+        font-size: 13px;
+    }
+    .job-info,.job-icon{
+        display: none;
+    }
+    .job-img{
+        width: 30px;
+        height: 20px;
+    }
 }
