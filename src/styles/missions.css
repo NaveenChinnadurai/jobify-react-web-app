@@ -1,19 +1,36 @@
-.mission-div{
+.mission-div {
     padding: 10px;
     background-color: rgb(156, 106, 221);
 }
-.mission-points{
+
+.mission-points {
     justify-content: space-evenly;
     padding: 15px;
 }
-.mission-card{
+
+.mission-card {
     width: 30%;
     padding: 10px;
     height: 20%;
     border-radius: 5px;
     border: 1px solid black;
 }
-.mission-card>p{
+
+.mission-card>p {
     font-size: 16px;
     text-align: justify;
+}
+
+@media screen and (max-width:576px) {
+    .mission-points{
+        flex-direction: column;
+        padding: 0;
+    }
+    .mission-card{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .mission-card>p{
+        font-size: 14px;
+    }
 }

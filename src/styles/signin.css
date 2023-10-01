@@ -83,3 +83,21 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width:576px) {
+    .account-div{
+        padding: 0 ;
+        background-color: white;
+    }
+    .account-div>h2{
+        font-size: 20px;
+        text-align: center;
+        padding: 0 5px;
+    }
+    .signin-div{
+        flex-direction: column;
+    }
+    .signin,.signup{
+        width: 100%;
+    }
+}

@@ -33,6 +33,29 @@
     margin: 20px 10px;
     border-radius: 8px;
 }
+.app-promo-img-div{
+    width: 100%;
+
+}
 .app-promo-img{
     height:300px;
+}
+#txt-bt-img{
+    display: none !important;
+}
+@media screen and (max-width:576px) {
+    .app-promo{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .app-promo-img{
+        height: 200px;
+    }
+    #txt-bt-img{
+        display: flex !important;
+    }
+    #main-promo-img{
+        display: none !important;
+    }
 }

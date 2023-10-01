@@ -6,18 +6,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 25px;
-    height: 8vh;
+    padding: 5px 30px;
 }
 .subdiv1{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px 20px;
     width: 50%;
 }
 .title-icon{
-    width: 10%;
+    width: fit-content;
     text-align: center;
 }
 .title-icon>span{
@@ -25,10 +23,9 @@
     font-weight: bolder;
 }
 .navbar-list{
-    width: 60vh;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 0px;
 }
 .navbar-list>li:hover,.title-icon>span:hover{
     color: rgb(77, 12, 151);
@@ -42,4 +39,47 @@
     font-size: 15px;
     border-radius: 50px;
     padding: 5px 10px;
+    border: none;
+}
+.burger-icon{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .nav-div1{
+        padding: 5px  0;
+    }
+    .subdiv1{
+        width: 30%;
+    }
+    .subdiv2{
+        width:10%;
+    }
+    .burger-icon{
+        display: contents;
+    }
+    .navbar-list,.nav-search-tab{
+        display: none !important;
+    }
+    .display-nav{
+        transform: 2s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(19, 8, 63);
+        width: 100vw ;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        padding: 10px;
+    }
+    .display-nav>li{
+        margin: 5px;
+    }
+    .nav-cross-btn{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
 }

@@ -30,12 +30,16 @@
     font-size: 20px;
     margin: 20px 0px;
 }
-.footer-icons>ul{
-    display: flex;
+.footer-icons{
+    display: flex ;
+    flex-direction: row !important;
+}
+.footer-icons>li{
+    width: fit-content;
+    margin: 0 10px ;
 }
 .footer-icon{
     font-size: 35px;
-    margin: 10px;
 }
 .footer-div>ul{
     display: flex;
@@ -50,4 +54,31 @@
 }
 .footer-end{
     text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .footer{
+        height: fit-content;
+        margin: 0;
+    }
+    .footer-details{
+        flex-direction: column;
+    }
+    .footer-div{
+        width: 100%;
+    }
+    .footer-div-1{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer-title-icon{
+        margin: 10px 0;
+    }
+    .footer-icons{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .footer-end>p{
+        font-size: 12px;
+    }
 }

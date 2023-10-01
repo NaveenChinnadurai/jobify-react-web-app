@@ -10,9 +10,9 @@ function Missions() {
         )
     })
     return (
-        <div className='mission-div col'>
+        <div className=' col mission-div'>
             <h1>Our Mission</h1>
-            <div className="mission-points row">{Achivement}</div>
+            <div className="row mission-points">{Achivement}</div>
         </div>
     )
 }

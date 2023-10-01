@@ -53,12 +53,12 @@ function Home() {
         <About/>
         <Features/>
         <Missions/>
-        <Highlights/>
         <Courses/>
+        <Highlights/>
         <Signin/>
         <AppPromo/>
         {showButton && (
-          <button className="top-btn col" onClick={scrollToTop}><Top className='top-icon'/>Back to Top</button>
+          <button className="top-btn col" onClick={scrollToTop}><Top className='top-icon'/></button>
       )}
     </div>
   )

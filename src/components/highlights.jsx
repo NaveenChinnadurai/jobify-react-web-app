@@ -12,9 +12,9 @@ function Highlights() {
     )
   })
   return (
-    <div className='highlight-div col'>
+    <div className='col highlight-div '>
         <h1>Top Reasons to Pick Our Platform</h1>
-        <div className="features-div row">{highlight}</div>
+        <div className="row features-div">{highlight}</div>
       </div>
   )
 }
