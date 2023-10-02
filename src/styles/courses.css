@@ -82,6 +82,9 @@ h2>a{
         background-size: 70%;
         background-blend-mode:overlay;
     }
+    .courses-title>p{
+        font-size: 15px;
+    }
     #iso-img{
         display: none !important;
     }

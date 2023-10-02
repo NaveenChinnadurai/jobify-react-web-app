@@ -118,11 +118,23 @@
         flex-wrap: wrap;
     }
     .filter-head{
-        display: none !important;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .filter-head>input{
+        width: 80%;
     }
     .filter-type{
         width: 100%;
         flex-direction: row;
+    }
+    .time-div>input{
+        height: 10px;
+    }
+    .time-div>span{
+        font-size: 13px;
     }
     .filter-time{
         margin: 0;

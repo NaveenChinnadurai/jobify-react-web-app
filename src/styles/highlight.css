@@ -38,6 +38,9 @@
         padding: 10px;
         line-height: 35px;
     }
+    .highlight-div>h1{
+        font-size: 25px;
+    }
     .features-div{
         width: 100%;
         padding: 0;
@@ -53,5 +56,9 @@
     .highlights>h1{
         font-size: 40px;
         height: 10px;
+    }
+    .highlights>p{
+        font-size: 15px;
+        line-height: 25px;
     }
 }

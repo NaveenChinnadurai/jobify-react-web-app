@@ -3,15 +3,10 @@
     text-align: center;
     background-color: rgb(240, 226, 253);
 }
-.account-div>h2{
-    margin-bottom: 20px;
-}
 .signin{
     width: 50%;
     padding: 20px;
     background-color: rgb(190, 154, 247);
-    /* 
-    background-color: rgb(110, 83, 155); */
 }
 .signup{
     width: 50%;
@@ -87,15 +82,31 @@
 @media screen and (max-width:576px) {
     .account-div{
         padding: 0 ;
-        background-color: white;
     }
-    .account-div>h2{
-        font-size: 20px;
+    .sign-head>h2{
+        font-size: 15px;
+        background-color: red;
+        padding: 0 10px;
+        display: contents;
         text-align: center;
-        padding: 0 5px;
+        width: fit-content;
+
     }
     .signin-div{
         flex-direction: column;
+    }
+    .signin-title>h2{
+        font-size: 20px;
+    }
+    .signin-title>p{
+        font-size: 15px;
+    }
+    .signin-btn{
+        font-size: 12px;
+        padding: 3px 15px;
+    }
+    .signin-inputs>input{
+        font-size: 15px;
     }
     .signin,.signup{
         width: 100%;

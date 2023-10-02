@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 30px;
+    padding: 10px 100px;
 }
 .subdiv1{
     display: flex;
@@ -44,12 +44,16 @@
 .burger-icon{
     display: none;
 }
+.nav-cross-btn{
+    display: none;
+}
 @media screen and (max-width:576px) {
     .nav-div1{
         padding: 5px  0;
     }
     .subdiv1{
         width: 30%;
+        padding: 10px 0;
     }
     .subdiv2{
         width:10%;
@@ -65,7 +69,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: rgb(19, 8, 63);
+        background-color: rgb(12, 0, 56);
         width: 100vw ;
         display: flex !important;
         flex-direction: column;
@@ -75,11 +79,12 @@
         padding: 10px;
     }
     .display-nav>li{
-        margin: 5px;
+        margin: 10px 0;
     }
     .nav-cross-btn{
+        display: flex;
         position: absolute;
         top: 5px;
-        right: 5px;
+        right: 15px;
     }
 }

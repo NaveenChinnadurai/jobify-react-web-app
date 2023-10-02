@@ -49,6 +49,12 @@
         margin: 0;
         padding: 0;
     }
+    .app-promo-head{
+        font-size: 25px;
+    }
+    .promo-text>p{
+        font-size: 15px;
+    }
     .app-promo-img{
         height: 200px;
     }
