@@ -1,8 +1,12 @@
-# React + Vite
+# Job Seeking Web App(Jobify)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Job-Seeking Website, a one-page React application that streamlines job searching. This user-friendly platform offers real-time job updates, dynamic filtering options, and a responsive interface for personalized job searches. Crafted with my expertise in front-end web development skills. An innovative, component-based React website designed to enhance and Boost my front-end development skills.
 
-Currently, two official plugins are available:
+Built with React, this project showcases my expertise in front-end web development. It harnesses the power of HTML, CSS, and JavaScript to create an engaging and responsive user experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I've successfully deployed the job-seeking website on GitHub pages.
+
+Webpage URL: https://naveenchinnadurai.github.io/techHolic-react-web-app
+
+I'm a dedicated learner and not a flawless developer. If you come across any mistakes or have suggestions for improvement, kindly let me know and enhance myself
+
